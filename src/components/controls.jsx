@@ -1,5 +1,7 @@
 import React from 'react';
 
+const clasName = 'text-lg bg-indigo-700 hover:bg-indigo-500 text-white py-1.5 px-4 rounded w-[170px] rounded-md';
+
 function Controls({
   heading1,
   heading2,
@@ -15,85 +17,79 @@ function Controls({
   link,
   image,
   horizontalLine,
-  quoteBlock,
 }) {
   return (
     <div className="text-3xl font-bold">
       <section className="flex flex-wrap gap-3">
         <button
           onClick={heading1}
-          className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Heading 1
         </button>
         <button
           onClick={heading2}
-          className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Heading 2
         </button>
         <button
           onClick={heading3}
-          className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Heading 3
         </button>
         <button
           onClick={bold}
-          className="bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Bold
         </button>
         <button
           onClick={italic}
-          className="bg-purple-700 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Italic
         </button>
         <button
           onClick={underline}
-          className="bg-indigo-700 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Underline
         </button>
         <button
           onClick={strikethrough}
-          className="bg-red-700 hover:bg-red-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Strikethrough
         </button>
         <button
           onClick={blockquote}
-          className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Blockquote
         </button>
         <button
           onClick={code}
-          className="bg-orange-700 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Code
         </button>
         <button
           onClick={unorderedList}
-          className="bg-teal-700 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Unordered List
         </button>
         <button
           onClick={orderedList}
-          className="bg-cyan-700 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Ordered List
         </button>
         <button
           onClick={link}
-          className="bg-pink-700 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Link
         </button>
         <button
           onClick={image}
-          className="bg-yellow-700 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Image
         </button>
         <button
           onClick={horizontalLine}
-          className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded w-[160px]">
+          className={clasName}>
           Horizontal Line
-        </button>
-        <button
-          onClick={quoteBlock}
-          className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 rounded w-[160px]">
-          Quote Block
         </button>
       </section>
     </div>
