@@ -10,7 +10,7 @@ This project is a simple Markdown to HTML converter built with React and Tailwin
 
 ## Screenshot
 
-![Screenshot of Markdown to HTML Converter](https://github.com/Nathbecode/Markdown-to-HTML-Converter/blob/main/public/Capture.PNG)
+![Screenshot of Markdown to HTML Converter](https://github.com/Nathbecode/Markdown/blob/main/public/Capture.PNG)
 
 ## Live Demo
 
